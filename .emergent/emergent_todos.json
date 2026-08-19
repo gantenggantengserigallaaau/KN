@@ -1,0 +1,58 @@
+[
+  {
+    "content": "FASE T-0: Snapshot regresi 3 SPK lama (estimate/explain/biaya) SEBELUM perubahan",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-1: domain_registry — PROCESS_STAGES benih (peta T.A) + ENUMS[process_stage] + finished--screen-->finished",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-2: master process_stages — MasterSpec, entity_scope, indexes, ENTITY_REGISTRY.md",
+    "status": "in_progress"
+  },
+  {
+    "content": "FASE T-3: master_registry.py — jembatan stages()/process_types()/stage_meta() + invalidate",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-4: mesin makloon — steps[].stage_code, changes_stage, material_flow (moves|service_only)",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-5: router — GET /api/process-stages + /for-line/{line_code} + aksi catat jasa",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-6: gate INV-DOMAIN-06 verify_master_stages.py (+ --self-test) & gate.sh — self-test 20/20, live HIJAU",
+    "status": "in_progress"
+  },
+  {
+    "content": "FASE T-6b: INV-MKO-04 diperbaiki + INV-MKO-07 baru (jasa murni tidak boleh hilang) — 237 PASS/0 FAIL",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-7: migrasi + seed — migrate_process_stages.py idempotent, seed 4 mitra + SPK MKO-00004 ber-Screen",
+    "status": "completed"
+  },
+  {
+    "content": "FASE T-8: POC backend/test_core_tahapan_poc.py (T1–T6 + regresi SPK identik) → HIJAU",
+    "status": "pending"
+  },
+  {
+    "content": "FASE T-9: frontend — PROCESS_LABELS hardcode 8 berkas → master via useDomainEnums",
+    "status": "pending"
+  },
+  {
+    "content": "FASE T-10: frontend — layar Master Tahapan Proses (masterFieldsConfig) + pemilih tahap & Catat Jasa di SPK",
+    "status": "pending"
+  },
+  {
+    "content": "FASE T-11: gate.sh --full HIJAU + audit --fase T SELESAI",
+    "status": "pending"
+  },
+  {
+    "content": "FASE T-12: uji end-to-end lewat testing agent (user story T.F 1-3)",
+    "status": "pending"
+  }
+]
